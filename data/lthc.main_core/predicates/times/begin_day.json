@@ -1,0 +1,7 @@
+{
+	"condition": "minecraft:time_check",
+	"value": {
+		"max": 1500,
+		"min": 0
+	}
+}

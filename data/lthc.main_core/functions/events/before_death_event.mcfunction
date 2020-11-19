@@ -1,0 +1,2 @@
+execute as @a[sort=random,limit=1] at @s if entity @e[type=#lthc.masters_core:undead,distance=..7] if predicate lthc.opal_core:luck run effect give @s instant_damage 0 1 true
+schedule function lthc.main_core:events/before_death_event 25s replace

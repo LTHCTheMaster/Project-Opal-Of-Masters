@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:phantom_membrane"
+		},
+		"title": "Phantom Step",
+		"description": "you need to have a phantom membrane and the pigstep sound disc",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "lthc.main_core:in_this_pack/root",
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:phantom_membrane"
+					},
+					{
+						"item": "minecraft:music_disc_pigstep"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword"
+		},
+		"title": "Ground To Sky Battle",
+		"description": "you need to have a netherite sword, an elytra, a enchanted golden apple and a water bucket",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "lthc.main_core:in_this_pack/root",
+	"rewards": {
+		"experience": 250
+	},
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:elytra"
+					},
+					{
+						"item": "minecraft:enchanted_golden_apple"
+					},
+					{
+						"item": "minecraft:netherite_sword"
+					},
+					{
+						"item": "minecraft:water_bucket"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "poom__stick_to_planks",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:oak_planks",
+        "count": 1
+    }
+}

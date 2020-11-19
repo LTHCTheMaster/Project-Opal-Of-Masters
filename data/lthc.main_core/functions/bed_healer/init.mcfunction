@@ -1,0 +1,1 @@
+scoreboard objectives add bedheal_lthc custom:sleep_in_bed "Bed Healing"

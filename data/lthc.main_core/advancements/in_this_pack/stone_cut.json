@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stonecutter"
+		},
+		"title": "Cute Stone",
+		"description": "obtain a stonecutter",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "lthc.main_core:in_this_pack/root",
+	"rewards": {
+		"experience": 25
+	},
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:stonecutter"
+					}
+				]
+			}
+		}
+	}
+}

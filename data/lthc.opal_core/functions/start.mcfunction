@@ -1,0 +1,1 @@
+schedule function lthc.opal_core:lucky_booster 75s replace

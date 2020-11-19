@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "title": "Recipe claimer",
+        "description": "Give basi recipe of 'Project Opal of Masters'",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "background": "minecraft:textures/block/sea_lantern.png",
+        "hidden": true
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "inventory_changed",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "recipes": ["lthc.main_core:dirt_to_stick","lthc.main_core:stick_to_planks"]
+    }
+}

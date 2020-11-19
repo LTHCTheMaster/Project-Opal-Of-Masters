@@ -1,0 +1,2 @@
+tellraw @a ["",{"text":"Thank you","bold":true},{"text":" for use "},{"text":"Project Opal of Masters","bold":true,"color":"#FF0000"},{"text":"\n _A simple and fun project :)_"}]
+msg @a automatic loading private message

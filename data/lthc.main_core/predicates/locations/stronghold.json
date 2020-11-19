@@ -1,0 +1,7 @@
+{
+	"condition": "minecraft:location_check",
+	"predicate": {
+		"feature": "stronghold",
+		"dimension": "minecraft:overworld"
+	}
+}

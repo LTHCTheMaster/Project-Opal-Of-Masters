@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "poom__dirt_to_stick",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dirt"
+        }
+    },
+    "result": {
+        "item": "minecraft:stick",
+        "count": 1
+    }
+}

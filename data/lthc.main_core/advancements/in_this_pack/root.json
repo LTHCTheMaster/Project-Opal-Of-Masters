@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:yellow_banner"
+		},
+		"title": "Project Opal Of Masters",
+		"description": "The root of this datapack",
+		"frame": "task",
+		"background": "minecraft:textures/colormap/foliage.png",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:inventory_changed"
+		}
+	}
+}

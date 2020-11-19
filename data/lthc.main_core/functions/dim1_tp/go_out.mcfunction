@@ -1,0 +1,3 @@
+execute as @a[predicate=lthc.main_core:dim/in_dim1] at @s if block ~ ~-1 ~ pink_concrete if block ~ ~2 ~ stone_bricks run function lthc.main_core:dim1_tp/effect_of_tp
+execute as @a[predicate=lthc.main_core:dim/in_dim1] at @s if block ~ ~-1 ~ pink_concrete if block ~ ~2 ~ stone_bricks run execute as @s in minecraft:overworld run tp @s 0 256 0
+schedule function lthc.main_core:dim1_tp/go_out 4s replace

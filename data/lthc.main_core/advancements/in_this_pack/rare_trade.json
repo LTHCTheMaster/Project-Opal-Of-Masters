@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": "Rare Trading",
+		"description": "trade with a \"Rare Trader\"",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "lthc.main_core:in_this_pack/root",
+	"rewards": {
+		"experience": 125
+	},
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:leather_helmet",
+					"enchantments": [
+						{
+							"enchantment": "minecraft:protection",
+							"levels": 6
+						}
+					]
+				}
+			}
+		}
+	}
+}

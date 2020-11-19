@@ -1,0 +1,1 @@
+schedule function lthc.masters_core:booster 60s replace

@@ -1,0 +1,11 @@
+{
+	"condition": "minecraft:location_check",
+	"offsetY": -1,
+	"predicate": {
+		"feature": "stronghold",
+		"dimension": "minecraft:overworld",
+		"block": {
+			"block": "minecraft:bookshelf"
+		}
+	}
+}
