@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "title": "Oh my god!!!",
+        "description": "Use spells 750 times",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "lthc.spells:uses/use250",
+    "criteria": {
+        "a": {
+            "trigger": "impossible"
+        }
+    }
+}

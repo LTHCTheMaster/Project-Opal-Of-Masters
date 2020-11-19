@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_planks"
+        },
+        "title": "A beginner",
+        "description": "Use spells 10 times",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "lthc.spells:root",
+    "criteria": {
+        "a": {
+            "trigger": "impossible"
+        }
+    }
+}

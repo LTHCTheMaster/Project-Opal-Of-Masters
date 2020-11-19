@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "enchanted_book"
+        },
+        "title": "Spells",
+        "description": "Root of spells advancements tree",
+        "background": "minecraft:textures/colormap/foliage.png",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true
+    },
+
+    "criteria": {
+        "auto": {
+            "trigger": "inventory_changed",
+            "conditions": {}
+        }
+    }
+}

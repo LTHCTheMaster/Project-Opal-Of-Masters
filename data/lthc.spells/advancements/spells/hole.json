@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "title": "Hole Builder",
+        "description": "Get the spell [Hole Builder]",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "lthc.spells:root",
+    "criteria": {
+        "a":{
+            "trigger": "impossible"
+        }
+    }
+}

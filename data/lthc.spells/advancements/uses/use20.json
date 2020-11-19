@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "title": "Twenty times spells",
+        "description": "Use spells 20 times",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "lthc.spells:uses/use10",
+    "criteria": {
+        "a": {
+            "trigger": "impossible"
+        }
+    }
+}

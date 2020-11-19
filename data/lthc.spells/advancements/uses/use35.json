@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "Some hours later",
+        "description": "Use spells 35 times",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "lthc.spells:uses/use20",
+    "criteria": {
+        "a": {
+            "trigger": "impossible"
+        }
+    }
+}

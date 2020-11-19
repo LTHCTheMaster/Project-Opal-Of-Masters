@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "title": "75%",
+        "description": "Use spells 75 times",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "lthc.spells:uses/use35",
+    "criteria": {
+        "a": {
+            "trigger": "impossible"
+        }
+    }
+}

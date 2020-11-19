@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lever"
+        },
+        "title": "Lightning",
+        "description": "Get the spell [Lightning]",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "lthc.spells:root",
+    "criteria": {
+        "a":{
+            "trigger": "impossible"
+        }
+    }
+}

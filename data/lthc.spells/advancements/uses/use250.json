@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "title": "Is it really your choice",
+        "description": "Use spells 250 times",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "lthc.spells:uses/use130",
+    "criteria": {
+        "a": {
+            "trigger": "impossible"
+        }
+    }
+}

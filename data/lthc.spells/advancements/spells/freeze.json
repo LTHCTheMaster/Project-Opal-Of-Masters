@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "title": "Freeze",
+        "description": "Get the spell [Freeze]",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "lthc.spells:root",
+    "criteria": {
+        "a":{
+            "trigger": "impossible"
+        }
+    }
+}

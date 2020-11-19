@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "title": "Earth Gift",
+        "description": "Get the spell [Earth Gift]",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "lthc.spells:root",
+    "criteria": {
+        "a":{
+            "trigger": "impossible"
+        }
+    }
+}

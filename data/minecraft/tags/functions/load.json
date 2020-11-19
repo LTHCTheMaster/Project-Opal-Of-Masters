@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "lthc.masters_core:start",
+        "lthc.opal_core:start",
+        "lthc.main_core:start",
+        "lthc.main_core:scores_load",
+        "lthc.spells:init",
+        "lthc.main_core:loading_message"
+    ]
+}

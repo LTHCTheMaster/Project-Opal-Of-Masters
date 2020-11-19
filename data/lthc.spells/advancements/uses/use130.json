@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": "Are you nut",
+        "description": "Use spells 130 times",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "lthc.spells:uses/use75",
+    "criteria": {
+        "a": {
+            "trigger": "impossible"
+        }
+    }
+}
