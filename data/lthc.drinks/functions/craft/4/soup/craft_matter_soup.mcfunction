@@ -1,0 +1,4 @@
+execute as @s at @s run setblock ~ ~-1 ~ air replace
+execute as @s at @s run setblock ~ ~-1 ~ dropper replace
+execute as @s at @s run setblock ~ ~-2 ~ air replace
+execute as @s at @s run setblock ~ ~-2 ~ barrel{Items:[{Slot:4b,id:"minecraft:potion",Count:8b,tag:{display:{Name:'{"text":"Matter Soup"}'},CustomPotionEffects:[{Id:1b,Amplifier:1b,Duration:1800,ShowParticles:0b},{Id:3b,Amplifier:1b,Duration:1800,ShowParticles:0b},{Id:13b,Amplifier:0b,Duration:4200,ShowParticles:0b},{Id:16b,Amplifier:0b,Duration:4200,ShowParticles:0b},{Id:21b,Amplifier:0b,Duration:9600,ShowParticles:0b},{Id:22b,Amplifier:1b,Duration:7200,ShowParticles:0b},{Id:23b,Amplifier:2b,Duration:600,ShowParticles:0b},{Id:28b,Amplifier:0b,Duration:4800,ShowParticles:0b}],CustomPotionColor:11870123}}]} replace

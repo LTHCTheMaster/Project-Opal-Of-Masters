@@ -1,0 +1,4 @@
+execute as @s at @s run setblock ~ ~-1 ~ air replace
+execute as @s at @s run setblock ~ ~-1 ~ dropper replace
+execute as @s at @s run setblock ~ ~-2 ~ air replace
+execute as @s at @s run setblock ~ ~-2 ~ barrel{Items:[{Slot:4b,id:"minecraft:potion",Count:2b,tag:{display:{Name:'{"text":"Golden Vine"}'},CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:160,ShowParticles:0b},{Id:3b,Amplifier:0b,Duration:100,ShowParticles:0b},{Id:10b,Amplifier:1b,Duration:100,ShowParticles:0b},{Id:11b,Amplifier:0b,Duration:500,ShowParticles:0b},{Id:16b,Amplifier:0b,Duration:1200,ShowParticles:0b},{Id:22b,Amplifier:1b,Duration:3600,ShowParticles:0b},{Id:23b,Amplifier:0b,Duration:30,ShowParticles:0b},{Id:26b,Amplifier:0b,Duration:280,ShowParticles:0b}],CustomPotionColor:16773693}}]} replace
